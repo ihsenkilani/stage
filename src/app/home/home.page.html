@@ -1,0 +1,37 @@
+
+<ion-header  > 
+
+    <ion-icon name="wifi-outline" style="margin-left: 8cm;color: rgba(240, 255, 240, 0.719);"></ion-icon>
+<ion-icon name="battery-half-outline" style="margin-left: cm;color: honeydew;"></ion-icon>
+  
+
+</ion-header>
+
+
+<ion-content [fullscreen]="true" style="--background:#247238 ;">
+  <img src="assets/cercle-blanc-fond-transparent.png" style="margin-left: 115px;height: 200px;" width="200px" height="200px">
+  <br>
+<ion-card-title style="text-align: center;color: rgb(163, 163, 163);">Bienvenue</ion-card-title>
+<br><br>
+<ion-card-content>
+  <ion-item >
+  <ion-input placeholder="Nom d'utilisateur" ></ion-input>
+</ion-item>
+<br>
+<ion-item>
+  <ion-input placeholder="Password" type="Password"></ion-input>
+</ion-item>
+<br><br>
+<ion-row text-center> 
+<ion-button (click)="log()" shape="round" color="medium" style="margin-left:3cm;"  >Connexion</ion-button>
+</ion-row>
+</ion-card-content>
+<br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+<ion-row style="margin-left: 3cm; color: rgb(163, 163, 163);"> Mot de passe oublié ?</ion-row>
+<br><ion-icon name="settings-outline" style="margin-left:0.5cm;color: rgb(163, 163, 163);size: 2cm;" ></ion-icon>
+</ion-content>
